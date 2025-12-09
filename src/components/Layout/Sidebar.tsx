@@ -31,6 +31,7 @@ const Sidebar = () => {
   const supervisorNavItems = [
     { to: '/dashboard', icon: Home, label: 'Dashboard' },
     { to: '/buildings', icon: Building2, label: 'Buildings' },
+    { to: '/collection-scheduler', icon: Calendar, label: 'Collection Scheduler' },
     { to: '/supervisor-form', icon: FormInput, label: 'Daily Report' },
     { to: '/tasks', icon: ClipboardList, label: 'Task Management' },
     { to: '/staff', icon: Users, label: 'Staff Management' },
@@ -40,6 +41,7 @@ const Sidebar = () => {
     { to: '/dashboard', icon: Home, label: 'Dashboard' },
     { to: '/composters', icon: Recycle, label: 'Composters' },
     { to: '/buildings', icon: Building2, label: 'Buildings' },
+    { to: '/collection-scheduler', icon: Calendar, label: 'Collection Scheduler' },
     { to: '/shredders', icon: Wrench, label: 'Shredders' },
     { to: '/tasks', icon: ClipboardList, label: 'Task Management' },
     { to: '/staff', icon: Users, label: 'Staff Management' },

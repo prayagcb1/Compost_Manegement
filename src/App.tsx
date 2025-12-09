@@ -9,6 +9,7 @@ import StaffLoginForm from './components/Auth/StaffLoginForm';
 // Central Admin Pages
 import Dashboard from './pages/Dashboard';
 import Schedule from './pages/Schedule';
+import CollectionScheduler from './pages/CollectionScheduler';
 import ServiceLogs from './pages/ServiceLogs';
 import Inventory from './pages/Inventory';
 import KnowledgeBase from './pages/KnowledgeBase';
@@ -90,6 +91,7 @@ function AppContent() {
             <>
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="buildings" element={<Buildings />} />
+              <Route path="collection-scheduler" element={<CollectionScheduler />} />
               <Route path="tasks" element={<Tasks />} />
               <Route path="staff" element={<Staff />} />
               <Route path="alerts" element={<Alerts />} />
